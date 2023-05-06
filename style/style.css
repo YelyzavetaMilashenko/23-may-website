@@ -1,3 +1,14 @@
 .head {
     background-image: url("img/backgroundImageHeader.png");
+    position: absolute;
+    left: 0.07;
+    right: 0;
+    top: -300;
+    bottom: -92600;
+
+}
+
+.logoMain {
+    width: 186px;
+    height: 58px;
 }

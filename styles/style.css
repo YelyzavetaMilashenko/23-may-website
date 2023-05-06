@@ -1,0 +1,21 @@
+header {
+    background-image: url('/img/backgroundImageHeader.png'), #222B32;
+    /* position: absolute; */
+    height: 930px;
+    width: 1775.7659912109375px;
+    /* left: 1.234375px;
+    top: -3px;
+    border-radius: 0px; */
+
+}
+
+.header__info__button {
+    background: #2091F9;
+    border-radius: 35px;
+
+}
+
+/* .logoMain {
+    width: 186px;
+    height: 58px;
+} */

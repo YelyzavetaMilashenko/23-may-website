@@ -1,21 +1,66 @@
 header {
-    background-image: url('/img/backgroundImageHeader.png'), #222B32;
-    /* position: absolute; */
+    background-image: url(../img/backgroundImageHeader.png);
     height: 930px;
-    width: 1775.7659912109375px;
-    /* left: 1.234375px;
+    width: 1430px;
+    left: 1.234375px;
     top: -3px;
-    border-radius: 0px; */
+    border-radius: 0px;
+    color: #fff;
+    text-align: center;
 
 }
 
-.header__info__button {
+.button {
     background: #2091F9;
     border-radius: 35px;
 
 }
 
-/* .logoMain {
+.img--video {
+    background-image: url(../img/logoPlay.png), url(../img/ellipse.png), url(../img/mainVideo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%, 50% 50%, 50% 50%;
+    height: 658.30322265625px;
+    width: 1177.3414306640625px;
+    left: 0px;
+    top: 0px;
+    border-radius: 44.81230545043945px;
+}
+
+.logoMain {
     width: 186px;
     height: 58px;
-} */
+}
+
+.main__input--sendEmail {
+    border-radius: 35px;
+}
+
+.main__input--buttonSend {
+    background: #2091F9;
+    border-radius: 35px;
+}
+
+.ui-designer {
+    background-image: url(../img/fhotoDesigner.png);
+    background-repeat: no-repeat;
+    background-position: 10% 10%
+}
+
+.main__block--pricing {
+    background: url(../img/pricingFree.png), url(../img/pricingStandart.png), url(../img/pricingBusiness.png), #252B42;
+    background-repeat: no-repeat;
+    background-position: 10% , 50% , 90% ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1430px;
+    height: 1155px;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #fff;
+    text-align: center;
+}

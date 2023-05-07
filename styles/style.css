@@ -50,7 +50,7 @@ header {
 .main__block--pricing {
     background: url(../img/pricingFree.png), url(../img/pricingStandart.png), url(../img/pricingBusiness.png), #252B42;
     background-repeat: no-repeat;
-    background-position: 10% , 50% , 90% ;
+    background-position: 10%, 50%, 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,4 +63,31 @@ header {
     flex-grow: 0;
     color: #fff;
     text-align: center;
+}
+
+.main__socialMedia {
+    background: #2091F9;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 150px 0px;
+    width: 1430px;
+    height: 567px;
+    background: #252B42;
+    flex: none;
+    order: 7;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #fff;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    color: #fff;
 }
